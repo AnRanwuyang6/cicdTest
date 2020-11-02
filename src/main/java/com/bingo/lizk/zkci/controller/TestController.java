@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/jekins")
     public String jekins(){
-        return "Hello word Jekins";
+        return "Hello word Jekins hook";
     }
 }
